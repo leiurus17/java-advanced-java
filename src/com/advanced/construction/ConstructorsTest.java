@@ -7,5 +7,6 @@ public class ConstructorsTest {
         NoArgConstructor noArgConstructor = new NoArgConstructor();
         NoConstructor noConstructor = new NoConstructor();
         InitializationBlock initializationBlock = new InitializationBlock();
+        InitializationBlockAndConstructor initializationBlockAndConstructor = new InitializationBlockAndConstructor();
     }
 }
