@@ -8,5 +8,6 @@ public class ConstructorsTest {
         NoConstructor noConstructor = new NoConstructor();
         InitializationBlock initializationBlock = new InitializationBlock();
         InitializationBlockAndConstructor initializationBlockAndConstructor = new InitializationBlockAndConstructor();
+        InitializationWithDefaults initializationWithDefaults = new InitializationWithDefaults();
     }
 }
