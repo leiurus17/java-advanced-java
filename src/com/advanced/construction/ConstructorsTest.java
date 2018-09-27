@@ -9,5 +9,6 @@ public class ConstructorsTest {
         InitializationBlock initializationBlock = new InitializationBlock();
         InitializationBlockAndConstructor initializationBlockAndConstructor = new InitializationBlockAndConstructor();
         InitializationWithDefaults initializationWithDefaults = new InitializationWithDefaults();
+        StaticInitializationBlock staticInitializationBlock = new StaticInitializationBlock();
     }
 }
