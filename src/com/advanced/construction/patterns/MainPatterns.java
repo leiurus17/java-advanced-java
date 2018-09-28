@@ -12,12 +12,12 @@ public class MainPatterns {
         // Only one "I can only be called in singleton." will appear
         // even though we called NaiveSingleton.getInstance(); multiple times.
         NaiveSingleton.getInstance();
-        NaiveSingleton.getInstance();
-        NaiveSingleton.getInstance();
-        NaiveSingleton.getInstance();
 
         EagerSingleton.getInstance();
         EagerSingleton.getInstance();
+
+        LazySingleton.getInstance();
+        LazySingleton.getInstance();
 
     }
 }
