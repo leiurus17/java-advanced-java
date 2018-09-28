@@ -16,5 +16,8 @@ public class MainPatterns {
         NaiveSingleton.getInstance();
         NaiveSingleton.getInstance();
 
+        EagerSingleton.getInstance();
+        EagerSingleton.getInstance();
+
     }
 }
